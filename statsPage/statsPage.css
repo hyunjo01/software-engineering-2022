@@ -1,0 +1,343 @@
+@charset "utf-8";
+
+/* 바디 */
+body {
+    width: 100%;
+    height: 100%;
+}
+/* 헤더 */
+header {
+    width: 100%;
+    height: 200px;
+    font-family: Neou;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header > div {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+#div-header-menu li{
+    margin: 13px;
+}
+#img-leftLine {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+} 
+
+#div-header-logo {
+    justify-content: center;
+} 
+#img-mainLogo {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+}
+
+#img-profile {
+    height: auto;
+    width: 120px;
+    object-fit: contain;
+}
+
+/* 메인 창 */
+#main {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* 좌측 사이드 */
+#div-side {
+    width: 330px;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+#div-side-logo {
+    width: 330px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#img-logo-MYS {
+    width: 250px;
+    height: auto;
+    object-fit: contain;
+}
+
+#div-side-select {
+    width: 250px;
+    height: 1000px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#img-select {
+    width: 17px;
+    height: auto;
+    object-fit: contain;
+}
+
+#div-side-select ul {
+    width: 120px;
+    margin: 0;
+    margin-right: 50px;
+}
+#div-side-select ul li {
+    margin-bottom: 13px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+#div-selectRadioList {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* 메인창 */
+#div-main{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    border-left: 1px solid lightgray;
+}
+
+
+.div-title {
+    display: flex;
+    flex-direction: row;
+}
+#graph-line-img {
+    height: 5px;
+    width: 800px;
+    object-fit: contain;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+.p-title {
+    font-family: 'Fashion Fetish Heavy';
+    font-size: 3rem;
+    margin-top: 0;
+}
+.p-text {
+    font-family: 'Neou';
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+
+/* 그래프 창 */
+#div-graph p {
+    margin-left: 30px;
+}
+#div-graphPart {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    height: 500px;
+}
+#div-graphPart img {
+    width: 18px;
+    height: auto;
+    object-fit: contain;
+    margin-right: 40px; margin-top: 50px;
+}
+
+/* 그래프 */
+.graph_wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.graph {
+    display: flex;
+    width: 1000px;
+    height: 400px;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+
+
+.graph li {
+    text-align: center;
+}
+.graph li div {
+    position: relative;
+    width: 50px;
+    height: 400px;
+    background: gainsboro;
+    display: flex;
+}
+.graph li div span {
+    position:absolute;
+    left: 0; right: 0; bottom: 0;
+    background: black;
+    z-index: 3;
+}
+.graph li p {
+    position: relative;
+    left: -13px;
+    font-weight: bold;
+}
+
+
+.graph_wrap .y-axis {
+    position: absolute;
+    width: 90%;
+    height: 400px;
+    z-index: 1;
+}
+.graph_wrap .y-axis > li {
+    position: relative;
+    width:1030px;
+    height: calc(428px / 11);
+    border-top: 1px solid gainsboro;
+    text-align: left;
+
+}
+.graph_wrap .y-axis > li span {
+    position: absolute;
+    top: -7px;
+    left: -20px;
+    font-size: 12px;
+    line-height: 1;
+    color: gainsboro;
+}
+
+/* 분석창 */
+#div-analysis {
+    margin-top: 150px;
+}
+
+
+#div-analysis p {
+    margin-left: 30px;
+}
+#analysis-line-img {
+    height: 5px;
+    width: 800px;
+    object-fit: contain;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+#analysis-shortline-img {
+    height: 75px;
+    width: auto;
+    object-fit: contain;
+    margin-left: 100px;
+}
+#div-analysisPart {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    height: 500px;
+}
+#div-analysisPart img {
+    width: 17px;
+    height: auto;
+    object-fit: contain;
+    margin-right: 40px; margin-top: 5px;
+}
+
+.analysis-wrap {
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+.div-analysis-summary {
+    margin-bottom: 20px;
+}
+.div-analysis-summary p {
+    font-family: 'Fashion Fetish';
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.analysis-result {
+    width: 700px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.analysis-result div {
+    width: 200px;
+    height: 100px;
+    display: flex;
+}
+.analysis-result-item {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.analysis-result-total {
+    font-family: 'Fashion Fetish';
+    font-size: 1.4rem;
+}
+
+
+
+
+/* 기타 */
+button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+}
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+ul {
+    list-style-type: none;
+}
+
+input[type="radio"] {
+    appearance: none;
+    background: none;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    vertical-align: middle;
+}
+  
+input[type="radio"]:checked {
+    appearance: none;
+
+    background-color: black;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+label {
+    font-size: 0.8rem;
+}

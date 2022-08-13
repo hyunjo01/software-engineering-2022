@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>clothes list main page</title>
+        <link rel ="stylesheet" href="statsPage.css"
+    </head>
+    <body>
+        <header>
+            <div id="div-header-menu">
+                <img id="img-leftLine" src="clothesListMain-img-leftLine.png" alt="헤더왼쪽라인">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">CLOTHING</a></li>
+                    <li><a href="">STATS</a></li>
+                </ul>
+            </div>
+            <div id="div-header-logo">
+                <button id="btn-mainLogo">
+                    <img id="img-mainLogo" src="clothesListMain-logo-main.png" alt="메인로고">
+                </button>
+            </div>
+            <div id="div-header-profile">
+                <button id="btn-profile">
+                    <img id="img-profile" src="clothesListMain-btn-profile.png">
+                </button>
+            </div>
+        </header>
+
+        <div id="main">
+            <div id="div-side">
+                <div id="div-side-logo">
+                    <img id="img-logo-MYS" src="clothesListMain-logo-MYS.png" alt="MANAGE YOUR STYLE">
+                    <p style="font-size: 2rem;"><b>Stats - Size</b></p>
+                </div>
+                <div id="div-side-select">
+                    <img id="img-select" src="stats-img-select.png" alt="select">
+                    <ul>
+                        <li>Type</li>
+                        <li>Size</li>
+                        <li>Season</li>
+                        <li>Wash Type</li>
+                        <li>Temperature</li>
+                        <li>Dry Cleaning</li>
+                        <li>Repair</li>
+                    </ul>
+                    <div id="div-selectRadioList">
+                        <input name="select" type="radio" value="type">
+                        <input name="select" type="radio" value="size">
+                        <input name="select" type="radio" value="season">
+                        <input name="select" type="radio" value="washType">
+                        <input name="select" type="radio" value="temperature">
+                        <input name="select" type="radio" value="dryCleaning">
+                        <input name="select" type="radio" value="repair">
+                    </div>
+                </div>
+            </div>
+
+            <div id="div-main">
+                <div id="div-graph">
+                    <div class="div-title">
+                        <p class="p-title">Graph</p>
+                        <img id="graph-line-img" src="stats-img-line.png" alt="구분선">
+                    </div>
+                    <p class="p-text">WHEN YOU BUY NEW CLOTHES,<br>
+                        REFER TO THE GRAPH.</p>
+                    <div id="div-graphPart">
+                        <img src="stats-img-graph.png" alt="graph">
+                        <div class="graph_wrap">
+                            <ul class="y-axis">
+                                <li><span>50</span></li>
+                                <li><span>45</span></li>
+                                <li><span>40</span></li>
+                                <li><span>35</span></li>
+                                <li><span>30</span></li>
+                                <li><span>25</span></li>
+                                <li><span>20</span></li>
+                                <li><span>15</span></li>
+                                <li><span>10</span></li>
+                                <li><span>5</span></li>
+                                <li><span>0</span></li>
+                            </ul>
+                            <ul class="graph">
+                                <li>
+                                    <div><span style="height: 26%;"></span></div>
+                                    <p>XS</p>
+                                </li>
+                                <li>
+                                    <div><span style="height: 14%;"></span></div>
+                                    <p>S</p>
+                                </li>
+                                <li>
+                                    <div><span style="height: 72%;"></span></div>
+                                    <p>M</p>
+                                </li>
+                                <li>
+                                    <div><span style="height: 24%;"></span></div>
+                                    <p>L</p>
+                                </li>
+                                <li>
+                                    <div><span style="height: 44%;"></span></div>
+                                    <p>XL</p>
+                                </li>
+                            </ul>
+                        </div> 
+                    </div>
+                </div>
+                <div id="div-analysis">
+                    <div class="div-title"">
+                        <p class="p-title">Analysis</p>
+                        <img id="analysis-line-img" src="stats-img-line.png" alt="구분선">
+                    </div>
+                    <p class="p-text">HERE IS AN ANALYSIS OF THE STATISTICS<br>
+                        OF CLOTHING INFORMATION</p>
+                    <img id="analysis-shortline-img" src="stats-img-shortline.png" alt="구분선">
+
+                    <div id="div-analysisPart">
+                        <img src="stats-img-summary.png" alt="summary">
+                        <div class="analysis-wrap">
+                            <div class="analysis-result">
+                                <div class="analysis-result-total">Match</div>
+                                <div class="analysis-result-amount">36</div>
+                            </div>
+                            <div class="analysis-result">
+                                <div class="analysis-result-total">Not Match</div>
+                                <div class="analysis-result-amount">7</div>
+                            </div>
+                            <div class="analysis-result">
+                                <div class="analysis-result-total">Total</div>
+                                <div class="analysis-result-amount">348</div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </body>
